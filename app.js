@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/views/index.html"));
 });
 
+app.get("/turing", (req, res) => {
+    res.sendFile(path.join(__dirname, "/views/turing.html"));
+  });
+
 app.get("/babbage", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/babbage.html"));
   });

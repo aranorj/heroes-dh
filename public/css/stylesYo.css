@@ -1,0 +1,26 @@
+body {
+  color: rgb(245, 244, 244);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(44, 2, 2);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+img {
+  width: 100%;
+}
+
+div.container {
+  overflow: hidden;
+  padding-top: 30px;
+}
+div.imagen {
+  width: 30%;
+  float: left;
+}
+div.detail {
+  padding-left: 5%;
+  width: 65%;
+  float: left;
+}
